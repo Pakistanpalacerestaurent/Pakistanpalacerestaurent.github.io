@@ -1,0 +1,16 @@
+body.page-specific {
+  margin: 0;
+  padding: 0;
+  background-color: green; /* Green background */
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center;     /* vertically center */
+  height: 100vh;           /* full viewport height */
+}
+
+body.page-specific .image-container img {
+  max-width: 90%;  /* responsive image width */
+  height: auto;    /* maintain aspect ratio */
+  display: block;
+  margin: auto;
+}
